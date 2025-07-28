@@ -1,0 +1,173 @@
+Olá, equipe Replit.
+
+Estou criando a plataforma Family Shop (Loja da Família), um marketplace moderno e seguro onde vários vendedores poderão cadastrar e vender seus produtos. A plataforma deve gerar receita cobrando uma comissão fixa e recebendo doações, tudo integrado com Stripe.
+
+Segue o detalhamento completo das funcionalidades e regras:
+
+
+---
+
+1. Fluxo e telas
+
+Tela de boas-vindas para visitantes novos, com fundo animado e slogan.
+
+Tela de login e cadastro com e-mail e senha.
+
+Após login/cadastro, o usuário acessa direto a página principal dos produtos.
+
+A sessão do usuário fica salva para que, ao fechar e abrir o site, ele continue logado automaticamente.
+
+Menu lateral esquerdo inicia fechado e abre só quando o usuário clicar no botão de menu. Isso vale para todos, inclusive para desenvolvedor e analista.
+
+
+
+---
+
+2. Contas especiais e segurança
+
+Desenvolvedor: lopesbiel2024@gmail.com (código VNK353@), com acesso total para:
+
+Visualizar, editar e excluir produtos;
+
+Bloquear usuários que postem produtos impróprios;
+
+Receber notificações imediatas quando alguém violar regras ou fizer venda, incluindo:
+
+Nome do vendedor;
+
+Produto vendido;
+
+Valor da venda;
+
+
+Resetar todos os produtos da loja;
+
+Visualizar gráficos detalhados e relatórios de vendas e uso do sistema.
+
+
+Analista: exocore81@gmail.com (código GBN3030@), com acesso restrito para:
+
+Visualizar gráficos e relatórios, sem permissão para editar ou bloquear.
+
+
+Cada conta é única e só pode ser usada em um dispositivo por vez, sem permitir múltiplos acessos simultâneos para evitar fraudes e invasões.
+
+
+
+---
+
+3. Produtos e controle
+
+Produtos cadastrados por vendedores aparecem organizados na página inicial, com filtros por categoria e preço.
+
+Produtos nocivos ou impróprios são bloqueados automaticamente.
+
+Desenvolvedor recebe notificações e pode bloquear contas de vendedores que violem as regras.
+
+Desenvolvedor pode bloquear usuários manualmente para impedir vendas de produtos impróprios.
+
+Desenvolvedor pode resetar a lista de produtos para todos os vendedores, quando necessário.
+
+
+
+---
+
+4. Responsividade e design
+
+O site deve ser responsivo e funcionar perfeitamente em celulares, tablets e computadores.
+
+Design moderno, limpo e profissional, com fundo animado suave e navegação intuitiva.
+
+O menu lateral deve abrir só ao clicar no botão, para todos os usuários (inclusive desenvolvedor e analista).
+
+O menu inicia fechado, sem abrir automaticamente.
+
+
+
+---
+
+5. Integração Stripe
+
+Configurar a integração de pagamentos com as seguintes chaves API do Stripe:
+
+Chave secreta (Secret Key):
+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
+
+Chave pública (Publishable Key):
+pk_live_51RkBHUCXjJlFxAE0YseaSbSpscpkW951QIW6zyBPkcWuBUK8LEMX2c8jUan8EF71rFuxPLBTjUZSISrod03Mg68U002j2C3uzU
+
+
+Cobrar automaticamente uma comissão fixa de R$ 15,00 por venda realizada pelos vendedores.
+
+Exemplo: se o produto vender por R$ 100, o vendedor recebe R$ 85 e a plataforma fica com R$ 15.
+
+
+Na barra lateral esquerda, incluir um botão de doação com valores fixos (R$ 10, R$ 25, R$ 100) e opção personalizada, processando as doações via Stripe para que eu receba diretamente.
+
+O botão de doação deve ter uma mensagem incentivando o usuário a contribuir para o crescimento da plataforma e da futura empresa/aplicativo.
+
+
+
+---
+
+6. Funcionalidades extras e segurança
+
+Implementar restrição para impedir que a mesma conta seja usada simultaneamente em dispositivos diferentes.
+
+Toda vez que um produto for comprado, o sistema deve enviar uma notificação automática para o desenvolvedor, contendo:
+
+Nome do vendedor;
+
+Produto vendido;
+
+Valor da venda;
+
+
+O desenvolvedor pode visualizar essas notificações para liberar o pagamento ao vendedor.
+
+O desenvolvedor pode bloquear vendedores infratores imediatamente.
+
+O desenvolvedor tem um botão para resetar todos os produtos.
+
+O sistema deve salvar o usuário logado para que não precise entrar de novo ao reabrir o site.
+
+
+
+---
+
+7. Objetivo e visão
+
+A Family Shop é o primeiro passo para um aplicativo robusto e uma empresa consolidada.
+
+As doações e comissões são essenciais para o crescimento e sustentabilidade do projeto.
+
+A plataforma deve crescer para ser mais que um site, um app completo, profissional e referência de vendas online.
+
+
+
+---
+
+8. Persistência e salvamento de dados do usuário
+
+Tudo que o usuário fizer dentro da conta deve ser salvo automaticamente no banco de dados ou localStorage, incluindo:
+
+Carrinho de compras;
+
+Histórico de compras e vendas;
+
+Dados pessoais e configurações;
+
+Produtos cadastrados (para vendedores).
+
+
+Ao sair da conta e fazer login novamente, todos esses dados devem estar intactos, permitindo que o usuário continue exatamente de onde parou, sem perder nada.
+
+A sessão deve ser persistente, evitando que o usuário tenha que fazer login toda vez que acessar o site.
+
+
+
+---
+
+Fico no aguardo da confirmação de que todas as funcionalidades estão implementadas corretamente e funcionando perfeitamente.
+
+Obrigado!
